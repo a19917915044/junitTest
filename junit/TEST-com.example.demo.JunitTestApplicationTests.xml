@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="DESKTOP-9MRC2TL" name="com.example.demo.JunitTestApplicationTests" skipped="0" tests="1" time="4.096" timestamp="2019-06-17T03:48:00">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.DOCKER_CERT_PATH" value="C:\Users\10299\.docker\machine\machines\default" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-9MRC2TL" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="C:\tools\sts-3.9.8.RELEASE\plugins\org.eclipse.pde.build_3.10.300.v20190305-0856\templates" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.DOCKER_HOST" value="tcp://192.168.99.100:2376" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_191\lib\resources.jar;C:\Program Files\Java\jre1.8.0_191\lib\rt.jar;C:\Program Files\Java\jre1.8.0_191\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_191\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_191\lib\jce.jar;C:\Program Files\Java\jre1.8.0_191\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_191\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_191\classes" />
+    <property name="env.COMPUTERNAME" value="DESKTOP-9MRC2TL" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\tools\sts-3.9.8.RELEASE\plugins\org.apache.ant_1.10.5.v20180808-0324" />
+    <property name="ant.file.junitTest" value="C:\tools\workspace\yunmeter\junitTest\build.xml" />
+    <property name="java.runtime.version" value="1.8.0_191-b12" />
+    <property name="env.HOMEPATH" value="\Users\10299" />
+    <property name="user.name" value="10299" />
+    <property name="user.language" value="zh" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="junitTest" />
+    <property name="java.version" value="1.8.0_191" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 158 Stepping 10, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\10299\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="GBK" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../../sts-3.9.8.RELEASE/" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="CN" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_191" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="env.APPDATA" value="C:\Users\10299\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\tools\workspace\yunmeter\junitTest\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="ant.file.type.junitTest" value="file" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.191-b12" />
+    <property name="env.DOCKER_MACHINE_NAME" value="default" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\10299" />
+    <property name="ant.library.dir" value="C:\tools\sts-3.9.8.RELEASE\plugins\org.apache.ant_1.10.5.v20180808-0324\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_191" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\10299\AppData\Local\Temp" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="env.NO_PROXY" value="192.168.99.100" />
+    <property name="env.DOCKER_TOOLBOX_INSTALL_PATH" value="C:\Program Files\Docker Toolbox" />
+    <property name="eclipse.pdebuild.scripts" value="C:\tools\sts-3.9.8.RELEASE\plugins\org.eclipse.pde.build_3.10.300.v20190305-0856\scripts" />
+    <property name="env.COMPOSE_CONVERT_WINDOWS_PATHS" value="true" />
+    <property name="target" value="1.8" />
+    <property name="user.home" value="C:\Users\10299" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.CLASSPATH" value=".;%JAVOME%\lib;C:\Program Files\Java\jdk1.8.0_191\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_191\lib\tools.jar" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.M2_HOME" value="C:\tools\maven\apache-maven-3.6.1" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\tools\maven\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Users\10299\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Docker Toolbox;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;C:\tools\sts-3.9.8.RELEASE;;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="6" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="java.class.path" value="C:\tools\workspace\yunmeter\junitTest\target\classes;C:\tools\workspace\yunmeter\junitTest\target\test-classes;C:\tools\maven\repository\org\springframework\boot\spring-boot-starter\2.1.5.RELEASE\spring-boot-starter-2.1.5.RELEASE.jar;C:\tools\maven\repository\org\springframework\boot\spring-boot\2.1.5.RELEASE\spring-boot-2.1.5.RELEASE.jar;C:\tools\maven\repository\org\springframework\spring-context\5.1.7.RELEASE\spring-context-5.1.7.RELEASE.jar;C:\tools\maven\repository\org\springframework\spring-aop\5.1.7.RELEASE\spring-aop-5.1.7.RELEASE.jar;C:\tools\maven\repository\org\springframework\spring-beans\5.1.7.RELEASE\spring-beans-5.1.7.RELEASE.jar;C:\tools\maven\repository\org\springframework\spring-expression\5.1.7.RELEASE\spring-expression-5.1.7.RELEASE.jar;C:\tools\maven\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.5.RELEASE\spring-boot-autoconfigure-2.1.5.RELEASE.jar;C:\tools\maven\repository\org\springframework\boot\spring-boot-starter-logging\2.1.5.RELEASE\spring-boot-starter-logging-2.1.5.RELEASE.jar;C:\tools\maven\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\tools\maven\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\tools\maven\repository\org\apache\logging\log4j\log4j-to-slf4j\2.11.2\log4j-to-slf4j-2.11.2.jar;C:\tools\maven\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar;C:\tools\maven\repository\org\slf4j\jul-to-slf4j\1.7.26\jul-to-slf4j-1.7.26.jar;C:\tools\maven\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\tools\maven\repository\org\springframework\spring-core\5.1.7.RELEASE\spring-core-5.1.7.RELEASE.jar;C:\tools\maven\repository\org\springframework\spring-jcl\5.1.7.RELEASE\spring-jcl-5.1.7.RELEASE.jar;C:\tools\maven\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar;C:\tools\maven\repository\org\springframework\boot\spring-boot-starter-test\2.1.5.RELEASE\spring-boot-starter-test-2.1.5.RELEASE.jar;C:\tools\maven\repository\org\springframework\boot\spring-boot-test\2.1.5.RELEASE\spring-boot-test-2.1.5.RELEASE.jar;C:\tools\maven\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.1.5.RELEASE\spring-boot-test-autoconfigure-2.1.5.RELEASE.jar;C:\tools\maven\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\tools\maven\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\tools\maven\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\tools\maven\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\tools\maven\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\tools\maven\repository\junit\junit\4.12\junit-4.12.jar;C:\tools\maven\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\tools\maven\repository\org\mockito\mockito-core\2.23.4\mockito-core-2.23.4.jar;C:\tools\maven\repository\net\bytebuddy\byte-buddy\1.9.12\byte-buddy-1.9.12.jar;C:\tools\maven\repository\net\bytebuddy\byte-buddy-agent\1.9.12\byte-buddy-agent-1.9.12.jar;C:\tools\maven\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\tools\maven\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\tools\maven\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\tools\maven\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\tools\maven\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\tools\maven\repository\org\springframework\spring-test\5.1.7.RELEASE\spring-test-5.1.7.RELEASE.jar;C:\tools\maven\repository\org\xmlunit\xmlunit-core\2.6.2\xmlunit-core-2.6.2.jar;C:\tools\workspace\yunmeter\junitTest;C:\Program Files\Java\jdk1.8.0_191\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_191\lib\tools.jar;C:\tools\sts-3.9.8.RELEASE\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-launcher.jar;C:\tools\sts-3.9.8.RELEASE\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant.jar;C:\tools\sts-3.9.8.RELEASE\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-junit.jar;C:\tools\sts-3.9.8.RELEASE\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.example.demo.JunitTestApplicationTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\tools\workspace\yunmeter\junitTest\junit\TEST-com.example.demo.JunitTestApplicationTests.xml crashfile=C:\tools\workspace\yunmeter\junitTest\junitvmwatcher7058323489868092396.properties propsfile=C:\tools\workspace\yunmeter\junitTest\junit3783007477970991721.properties" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.LOGONSERVER" value="\\DESKTOP-9MRC2TL" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.OneDrive" value="C:\Users\10299\OneDrive" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\tools\sts-3.9.8.RELEASE\plugins\org.apache.ant_1.10.5.v20180808-0324" />
+    <property name="java.io.tmpdir" value="C:\Users\10299\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="9e0a" />
+    <property name="eclipse.pdebuild.home" value="C:\tools\sts-3.9.8.RELEASE\plugins\org.eclipse.pde.build_3.10.300.v20190305-0856\." />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\tools\workspace\yunmeter\junitTest" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\10299\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.IntelliJ IDEA" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\tools\maven\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Users\10299\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Docker Toolbox;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin;;C:\tools\sts-3.9.8.RELEASE;" />
+    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\10299\AppData\Local\Temp\null198473725" />
+    <property name="basedir" value="C:\tools\workspace\yunmeter\junitTest" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\tools\sts-3.9.8.RELEASE\plugins\org.apache.ant_1.10.5.v20180808-0324\lib\ant.jar" />
+    <property name="env.USERNAME" value="10299" />
+    <property name="source" value="1.8" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="GBK" />
+    <property name="env.USERDOMAIN" value="DESKTOP-9MRC2TL" />
+    <property name="env.DOCKER_TLS_VERIFY" value="1" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="build,junitreport,JunitTestApplicationTests" />
+    <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="com.example.demo.JunitTestApplicationTests" name="contextLoads" time="0.671" />
+  <system-out><![CDATA[11:47:59.608 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.demo.JunitTestApplicationTests]
+11:47:59.616 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:47:59.639 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:47:59.720 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.demo.JunitTestApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+11:47:59.761 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.JunitTestApplicationTests], using SpringBootContextLoader
+11:47:59.769 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.JunitTestApplicationTests]: class path resource [com/example/demo/JunitTestApplicationTests-context.xml] does not exist
+11:47:59.770 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.JunitTestApplicationTests]: class path resource [com/example/demo/JunitTestApplicationTestsContext.groovy] does not exist
+11:47:59.771 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.JunitTestApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:47:59.772 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.JunitTestApplicationTests]: JunitTestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:47:59.953 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.demo.JunitTestApplicationTests]
+11:48:00.256 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\tools\workspace\yunmeter\junitTest\target\classes\com\example\demo\JunitTestApplication.class]
+11:48:00.261 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.JunitTestApplication for test class com.example.demo.JunitTestApplicationTests
+11:48:00.733 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.demo.JunitTestApplicationTests]: using defaults.
+11:48:00.739 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+11:48:00.787 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+11:48:00.790 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+11:48:00.797 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+11:48:00.797 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49d904ec, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@48e4374, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3d680b5a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b5d6a01, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4a22f9e2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3c419631, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@418e7838, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@61230f6a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3c130745]
+11:48:00.980 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.demo.JunitTestApplicationTests]
+11:48:00.982 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.demo.JunitTestApplicationTests]
+11:48:00.995 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.demo.JunitTestApplicationTests]
+11:48:00.995 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.demo.JunitTestApplicationTests]
+11:48:01.000 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.demo.JunitTestApplicationTests]
+11:48:01.001 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.demo.JunitTestApplicationTests]
+11:48:01.022 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3f197a46 testClass = JunitTestApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@636be97c testClass = JunitTestApplicationTests, locations = '{}', classes = '{class com.example.demo.JunitTestApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3224f60b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6737fd8f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4e7dc304, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27a8c74e], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+11:48:01.025 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.demo.JunitTestApplicationTests]
+11:48:01.025 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.demo.JunitTestApplicationTests]
+11:48:01.059 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@3f197a46 testClass = JunitTestApplicationTests, testInstance = com.example.demo.JunitTestApplicationTests@28eaa59a, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@636be97c testClass = JunitTestApplicationTests, locations = '{}', classes = '{class com.example.demo.JunitTestApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3224f60b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6737fd8f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@4e7dc304, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27a8c74e], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+11:48:01.144 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.5.RELEASE)
+
+2019-06-17 11:48:02.138  INFO 13056 --- [           main] c.e.demo.JunitTestApplicationTests       : Starting JunitTestApplicationTests on DESKTOP-9MRC2TL with PID 13056 (started by 10299 in C:\tools\workspace\yunmeter\junitTest)
+2019-06-17 11:48:02.143  INFO 13056 --- [           main] c.e.demo.JunitTestApplicationTests       : No active profile set, falling back to default profiles: default
+2019-06-17 11:48:04.166  INFO 13056 --- [           main] c.e.demo.JunitTestApplicationTests       : Started JunitTestApplicationTests in 3.016 seconds (JVM running for 6.108)
+ShowMe [hand=60, foot=160]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
