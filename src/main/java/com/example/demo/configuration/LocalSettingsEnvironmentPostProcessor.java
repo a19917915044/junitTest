@@ -23,7 +23,7 @@ public class LocalSettingsEnvironmentPostProcessor implements EnvironmentPostPro
 		String location = "";
 		try {
 			location = ResourceUtils.getURL("classpath:").getPath();
-			int index = location.indexOf("WNB-INF");
+			int index = location.indexOf("WEB-INF");
 			System.out.println("-=======================" + location);
 			if (index <= 0) {
 				return;
