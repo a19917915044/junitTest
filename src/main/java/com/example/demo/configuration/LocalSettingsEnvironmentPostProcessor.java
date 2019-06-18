@@ -29,6 +29,7 @@ public class LocalSettingsEnvironmentPostProcessor implements EnvironmentPostPro
 				return;
 			}
 			location = location.substring(0, index) + "config/application.properties";
+			System.out.println("============locationFinal" + location);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
