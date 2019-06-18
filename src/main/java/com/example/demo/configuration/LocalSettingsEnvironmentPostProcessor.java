@@ -28,7 +28,7 @@ public class LocalSettingsEnvironmentPostProcessor implements EnvironmentPostPro
 			if (index <= 0) {
 				return;
 			}
-			location = location.substring(0, index) + "config/application.properties";
+			location = location.substring(0,location.substring(0, index-1).lastIndexOf(File.separator))+ File.separator	+ "config" + File.separator + "application.properties";
 			System.out.println("============locationFinal" + location);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
