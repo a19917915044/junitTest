@@ -28,7 +28,7 @@ public class ShowMe {
 	private String username;
 	@Value("${remote.password:${spring.datasource.druid.password}}")
 	private String password;
-	@Value("onlyyou")
+	@Value("${onlyyou}")
 	private String only;
 
 	public String getOnly() {
