@@ -24,7 +24,7 @@ public class LocalSettingsEnvironmentPostProcessor implements EnvironmentPostPro
 		try {
 			location = ResourceUtils.getURL("classpath:").getPath();
 			int index = location.indexOf("WNB-INF");
-			System.out.println(location);
+			System.out.println("-=======================" + location);
 			if (index <= 0) {
 				return;
 			}
