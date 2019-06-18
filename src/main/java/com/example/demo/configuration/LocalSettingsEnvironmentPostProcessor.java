@@ -23,12 +23,15 @@ public class LocalSettingsEnvironmentPostProcessor implements EnvironmentPostPro
 		String location = "";
 		try {
 			location = ResourceUtils.getURL("classpath:").getPath();
+			System.out.println("C:" + File.separator + "webapps" + File.separator + "junit" + File.separator + "WEB-INF"
+					+ File.separator + "xxx");
 			int index = location.indexOf("WEB-INF");
 			System.out.println("-=======================" + location);
 			if (index <= 0) {
 				return;
 			}
-			location = location.substring(0,location.substring(0, index-1).lastIndexOf(File.separator))+ File.separator	+ "config" + File.separator + "application.properties";
+			location = location.substring(0, location.substring(0, index - 1).lastIndexOf(File.separator))
+					+ File.separator + "config" + File.separator + "application.properties";
 			System.out.println("============locationFinal" + location);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
