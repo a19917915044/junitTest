@@ -28,6 +28,7 @@ public class ShowController {
 //        resource.getFile()
 //		System.out.println(ClassUtils.getDefaultClassLoader().getResource("../").getPath());
 		System.out.println(ResourceUtils.getURL("").getPath());
+		System.out.println(ResourceUtils.getURL("classpath:").getPath());
 		System.out.println();
 //        System.out.println(resource.getFile());
 
