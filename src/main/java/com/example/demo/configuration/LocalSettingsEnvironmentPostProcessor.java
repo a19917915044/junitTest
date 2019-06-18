@@ -22,7 +22,7 @@ public class LocalSettingsEnvironmentPostProcessor implements EnvironmentPostPro
 
 		String location = "";
 		try {
-			location = ResourceUtils.getURL("classpath:").getPath().replaceAll("\\", File.separator).replaceAll("/",
+			location = ResourceUtils.getURL("classpath:").getPath().replace("\\", File.separator).replace("/",
 					File.separator);
 			System.out.println("C:" + File.separator + "webapps" + File.separator + "junit" + File.separator + "WEB-INF"
 					+ File.separator + "xxx");
