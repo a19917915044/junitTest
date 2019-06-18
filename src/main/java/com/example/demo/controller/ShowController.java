@@ -49,6 +49,8 @@ public class ShowController {
 		System.out.println(showMe.getUsername());
 		System.out.println(showMe.getPassword());
 
+		
+		System.out.println("onlyyou:::" + showMe.getOnly());
 		return showMe.getHello();
 	}
 }
