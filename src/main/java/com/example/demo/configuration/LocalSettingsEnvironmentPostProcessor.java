@@ -19,17 +19,20 @@ public class LocalSettingsEnvironmentPostProcessor implements EnvironmentPostPro
 	@Override
 	public void postProcessEnvironment(ConfigurableEnvironment configurableEnvironment,
 			SpringApplication springApplication) {
-		
-		
+
 		String location = "";
 		try {
-			location = ResourceUtils.getURL("").getPath();
-			location.indexOf("webapp");
+			location = ResourceUtils.getURL("classpath:").getPath();
+			int index = location.indexOf("WNB-INF");
+			if (index <= 0) {
+				return;
+			}
+			location = location.substring(0, index) + "config/application.properties";
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		File file = new File(location);
 		if (file.exists()) {
 			MutablePropertySources propertySources = configurableEnvironment.getPropertySources();
