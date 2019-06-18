@@ -5,8 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
-import com.sun.glass.ui.Application;
-
 @SpringBootApplication
 public class JunitTestApplication extends SpringBootServletInitializer {
 
@@ -16,10 +14,11 @@ public class JunitTestApplication extends SpringBootServletInitializer {
 	}
 	
 
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(Application.class);
-    }
+	//为了打包springboot项目
+	protected SpringApplicationBuilder configure(
+			SpringApplicationBuilder builder) {
+		return builder.sources(this.getClass());
+	}
 }
 
 
