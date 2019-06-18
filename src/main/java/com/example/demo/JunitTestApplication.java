@@ -1,8 +1,12 @@
 package com.example.demo;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+
+import com.example.demo.controller.ShowController;
+import com.example.demo.controller.ShowMe;
 
 @SpringBootApplication
 public class JunitTestApplication {
@@ -12,13 +16,7 @@ public class JunitTestApplication {
 		SpringApplication.run(JunitTestApplication.class, args);
 	}
 	
-	@Bean
-	public ShowMe showMe() {
-		ShowMe sm = new ShowMe();
-		sm.setFoot("160");
-		sm.setHand("60");
-		return sm;
-	}
+	
 }
 
 

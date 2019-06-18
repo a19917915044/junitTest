@@ -1,8 +1,10 @@
-package com.example.demo;
+package com.example.demo.controller;
 
-import org.springframework.context.annotation.PropertySource;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
 
-@PropertySource("Tommy")
+@Component
+@ConfigurationProperties(prefix="connection")
 public class ShowMe {
 
 	private String hand;
